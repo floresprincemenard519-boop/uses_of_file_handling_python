@@ -14,5 +14,5 @@ with open("numbers.txt", "r") as numbers:
         number = int(line.strip())
         if number % 2 == 0:
             #The number is even..
-            with open("even.txt", "w") as even:
+            with open("even.txt", "a") as even:
                 even.write(str(number) + "\n")        
