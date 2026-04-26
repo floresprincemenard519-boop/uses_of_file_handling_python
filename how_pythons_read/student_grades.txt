@@ -1,0 +1,20 @@
+Ahsoka Tano,1.04
+Captain Rex,1.15
+Anakin Skywalker,1.02
+Obi-Wan Kenobi,1.10
+Plo Koon,1.21
+Commander Cody,1.38
+Fives,1.45
+Echo,1.42
+Asajj Ventress,1.55
+Cad Bane,1.62
+General Grievous,2.10
+Count Dooku,1.18
+Mace Windu,1.05
+Bo-Katan Kryze,1.48
+Hondo Ohnaka,2.75
+Admiral Thrawn,1.03
+Commander Wolffe,1.52
+Savage Opress,2.30
+Shaak Ti,1.25
+Pre Vizsla,1.88
