@@ -10,3 +10,4 @@ with open("student_grades.txt", "r") as file:
             highest_grade = grade
             top_student = student_name
 
+print(f"\nTop Student: {top_student} with a grade of {highest_grade}")
