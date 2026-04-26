@@ -1,6 +1,3 @@
-import random
-
-with open("integers.txt", "w") as file:
-    for numbers in range(20):
-        num = random.randint(-100, 100)
-        file.write(f"{num}\n")
+with open("integers.txt", "r") as file:
+    for line in file:
+        print(line)
