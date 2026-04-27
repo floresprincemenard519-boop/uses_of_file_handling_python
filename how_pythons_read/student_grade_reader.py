@@ -21,8 +21,12 @@ try:
             if grade < highest_grade:
                 highest_grade = grade
                 top_student = student_name
-
-        print(f"Top Student: {top_student} with a grade of {highest_grade}")
+        
+        if top_student != "No student in file.":
+            print(f"Top Student: {top_student} with a grade of {highest_grade}")
+        else:
+            print("No valid student records found.")
+        
 
 except FileNotFoundError:
     print("Error: File not found.")
