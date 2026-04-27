@@ -1,12 +1,14 @@
-def write_to_file(file_name):
-    while True:
-        text_to_input = input("Enter what you want to write (Enter 'quit' to exit): ")
-        if text_to_input == "quit":
-            break
-        with open(file_name, "a") as file:
-            file.write(text_to_input + "\n")
-        
-               
-    
+class Writer:
+    def __init__(self, file_name):
+        self.file_name = file_name
 
-write_to_file("mylife.txt")
+    def write_to_file(self):
+        while True:
+            text_to_input = input("Enter what you want to write (Enter 'quit' to exit): ")
+            if text_to_input == "quit":
+                break
+            with open(self.file_name, "a") as file:
+                file.write(text_to_input + "\n")
+            
+writer = Writer("mylife.txt")
+writer.write_to_file()
