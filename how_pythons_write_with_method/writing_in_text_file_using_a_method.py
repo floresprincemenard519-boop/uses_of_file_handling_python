@@ -10,5 +10,3 @@ class Writer:
                     break
                 file.write(text_to_input + "\n")
             
-writer = Writer("mylife.txt")
-writer.write_to_file()
