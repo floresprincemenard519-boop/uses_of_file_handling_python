@@ -10,6 +10,7 @@ class SquareAndCubeGenerator:
 
                 for line in file:
                     number = line.strip()
+                    
                     if not number:
                         continue
                     try:
