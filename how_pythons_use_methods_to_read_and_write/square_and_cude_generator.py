@@ -26,6 +26,3 @@ class SquareAndCubeGenerator:
             print(f"File not found: {self.file_name}")
         except Exception as error:
             print(f"An error occurred: {error}")
-
-generator = SquareAndCubeGenerator("integers.txt")
-generator.square_and_cube_generator()
